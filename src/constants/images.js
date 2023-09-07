@@ -3,7 +3,7 @@ import welcome from '../assets/welcome.png';
 import spoon from '../assets/spoon.svg';
 import bg from '../assets/bg.png';
 import cover_courseimg from "../assets/cover_courseimg.jpg"
-import storylogo from "../assets/stoeylogo.jpg"
+import storylogo from "../assets/Stoeylogo.jpg"
 import background from "../assets/background.jpg"
 import chef from "../assets/chef.png"
 import laurels from '../assets/laurels.png';
