@@ -1,0 +1,99 @@
+.bodyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background:#222;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    gap: 60px;
+
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: #2e2e2e;
+    display: flex;justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container .box .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 100px 20px;
+    overflow: hidden;
+}
+
+.container .box .content .icon{
+    color: var(--color-golden);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 0 4px #2e2e2e,
+    0 0 0 6px var(--color-golden);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background: #2e2e2e;
+    transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .icon{
+    background:var(--color-golden);
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e,
+    0 0 0 300px var(--color-golden);
+}
+
+.container .box .content .text h3{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.container .box:hover .content .text h3{
+    color: #2e2e2e;
+}
+
+.container .box .content .text p{
+    color: #999;
+    transition: 0.5s ease-in-out;
+}
+.container .box:hover .content .text p{
+    color: #2e2e2e;
+}
+
+.container .box .content .text a{
+    position: relative;
+    background-color: var(--color-golden);
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    margin: top 10px; 
+    transition: ease-in-out;
+}
+.container .box:hover .content .text a{
+    background: #2e2e2e;
+    color:var(--color-golden);
+}
+
+

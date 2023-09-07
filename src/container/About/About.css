@@ -1,0 +1,30 @@
+.app__chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 4rem;
+}
+.headtext__about{
+    font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 60px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 2000px) {
+    .headtext__about {
+        font-size: 150px;
+        line-height: 210px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+    .headtext__about {
+        font-size: 36px;
+        line-height: 58px;
+      }
+
+}

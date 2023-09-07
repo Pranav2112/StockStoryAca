@@ -1,0 +1,70 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header app__wrapper{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 80vh;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    line-height: 85px;
+    font-size: 60px;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+/* .button {
+    border: 0;
+    background: #e91e;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 white;
+    color: #fff;
+    cursor: pointer;
+    font: ;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+  }
+  .button:active {
+    box-shadow: 0 2px 0 #e91e;
+    transform: translateY(3px);
+  } */
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}

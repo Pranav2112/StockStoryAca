@@ -1,0 +1,207 @@
+.contact_section{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-black);
+    
+}
+.contact_section .heading_content{
+    max-width: 800px;
+    text-align: center;
+}
+.p_getint{
+  font-family:  var(--font-base);
+  color:#f4ac11;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 26px;
+
+}
+.P_extratext{
+    font-family: var(--font-alt);
+  color:white;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 6px;
+
+}
+
+
+
+.contactcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 50px;
+    margin-top: 20px;
+}
+.contactcontainer .contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #343434;;  
+    padding: 10px;
+    border-radius: 4px;
+}
+.contactcontainer .contactInfo .contactbox{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+.contactcontainer .contactInfo .contactbox .iconss{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transition:0.5s ;
+    border-radius: 4px;
+    
+}
+.contactcontainer .contactInfo .contactbox:hover .iconss{
+    background: #f4ac11;
+    color: #fff;
+}
+.contactcontainer .contactInfo .contactbox .infoText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.contactcontainer .contactInfo .contactbox .infoText h3{
+    font-weight: 500;
+    color: #f4ac11;
+}
+.contactcontainer .contactInfo .txt{
+    margin-top: 40px;
+    font-weight: 500; 
+    padding-left: 10px;
+    border-left: 50px solid #e91e;
+    line-height: 1em;
+}
+.social-icon{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px o;
+    padding: 10px;
+}
+.social-icon li{
+    list-style: none;
+}
+.social-icon li a{
+    font-size: 2em;
+    transition: 0.5s;
+}
+.social-icon li a:hover{
+    color: #00bcd4;
+}
+
+
+
+
+
+
+
+
+.contactcontainer .contactForm{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 60px;
+}
+
+.contactcontainer .contactForm h2{
+    font: size 2em;
+    color: #222;
+    font-weight: 500;
+}
+.contactcontainer .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.contactcontainer .contactForm .inputBox input,
+.contactcontainer .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactcontainer .contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    pointer-events:  none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+    transition: 0.5s;
+}
+
+
+.contactcontainer .contactForm .inputBox input:focus~ span,
+.contactcontainer .contactForm .inputBox textarea:focus~ span,
+.contactcontainer .contactForm .inputBox input:valid~ span,
+.contactcontainer .contactForm .inputBox textarea:valid~ span{
+    color: #e91e;
+    font-size: 0.9em;
+    transform: translateY(-20px);
+}
+
+.contactcontainer .contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .contactcontainer{
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (min-width: 991px){
+    .contact_section{
+        padding: 50px;
+    }
+
+    .contactcontainer{
+        flex-direction: column;
+    }
+    .contactcontainer .contactForm,
+    .contactcontainer .contactInfo{
+        width: 100%;
+    }
+    .contactcontainer .contactForm{
+        padding: 50px 30px;
+    }
+} */
+
+
